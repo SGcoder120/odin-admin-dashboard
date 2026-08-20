@@ -1,0 +1,255 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    background-color: #dddddd;
+    overflow-x: hidden;
+}
+
+aside {
+    background-color: #1992d4;
+    width: 17vw;
+    height: 200vh;
+}
+
+aside p {
+    font-weight: bold;
+    color: white;
+}
+
+aside img {
+    width: 10%;
+    height: auto;
+    filter: brightness(0) invert(1);
+}
+
+aside>div {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 10px;
+    gap: 10px;
+}
+
+.main-dashboard {
+    font-size: 26px;
+}
+
+.home {
+    padding-top: 4px;
+}
+
+.communities {
+    padding-bottom: 18px;
+}
+
+.search-bar {
+    width: 800px;
+    height: 30px;
+    background-color: #a5a5a5;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    left: 17vw;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    width: 84vw;
+    background-color: #ffffff;
+}
+
+header>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header>div>.profile-one {
+    padding-left: 20px;
+}
+
+header img {
+    width: 30px;
+    height: 30px;
+}
+
+.profile-one {
+    width: 45px;
+    height: 45px;
+}
+
+.action-button {
+    background-color: #1992d4;
+    border-radius: 30px;
+    margin: 0px 5px;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.name-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding: 0px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.name-header p {
+    margin: 5px;
+}
+
+.name-p {
+    font-size: 24px;
+}
+
+.bigger-profile {
+    width: 120px;
+    height: 120px;
+}
+
+.search-img {
+    margin-left: 20px;
+}
+
+.notification-img {
+    margin-left: 50px;
+}
+
+.action-buttons {
+    margin-left: 375px;
+}
+
+main {
+    position: absolute;
+    top: 28vh;
+    left: 17vw;
+    padding: 20px;
+}
+
+main h2 {
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.main-grid {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    width: 800px;
+    padding: 10px;
+    gap: 30px;
+}
+
+.project-grid-elem {
+    position: relative;
+    border-left: 8px solid gold;
+    padding: 10px 30px 45px 20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.project-grid-elem img {
+    position: absolute;
+    bottom: 12px;
+    width: 20px;
+    height: 20px;
+    padding: 0px 10px;
+}
+
+.star-img {
+    left: 260px;
+}
+
+.eye-img {
+    left: 295px;
+}
+
+.fork-img {
+    left: 330px;
+}
+
+.announcements {
+    position: absolute;
+    top: 5vh;
+    left: 60vw;
+    width: 300px;
+}
+
+.announcements>h2 {
+    position: relative;
+    top: -12px;
+    left: -10px;
+}
+
+.announcement-cards {
+    background-color: white;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.announcement-cards>div:not(:last-child) {
+    border-bottom: 1px solid black;
+}
+
+.trending {
+    position: absolute;
+    top: 80vh;
+    left: 60vw;
+    width: 300px;
+}
+
+.trending>h2 {
+    position: relative;
+    left: -10px;
+}
+
+.trending-cards {
+    background-color: white;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.trending-cards>div:not(:last-child) {
+    border-bottom: 1px solid black;
+}
+
+.trending-cards img {
+    width: 70px;
+    height: 70px;
+}
+
+.trending-cards>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.trending-info-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.trending-info-text>h3,
+.trending-info-text>p {
+    margin: 5px;
+}
+
+img[src*="profile"] {
+    padding: 10px;
+}
