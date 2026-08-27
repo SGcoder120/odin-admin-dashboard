@@ -207,7 +207,7 @@ main h2 {
 
 .trending {
     position: absolute;
-    top: 80vh;
+    top: 100vh;
     left: 60vw;
     width: 300px;
 }
